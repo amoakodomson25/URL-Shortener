@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">URL Shortner</div>
+    </div>
+    <div class="main">
+      <form action="#">
+        <div class="form">
+          <div class="input-url">
+            <p>URL :</p>
+            <div class="flexbox">
+              <input
+                type="text"
+                id="originalurl"
+                placeholder="Enter the URL..."
+              />
+              <input type="button" value="Shorten" id="shortenBtn" />
+            </div>
+          </div>
+          <div class="output-url">
+            <p>Shortened URL :</p>
+            <div class="flexbox">
+              <input
+                type="text"
+                id="shorturl"
+                placeholder="Shortened URL ..."
+                disabled
+              />
+              <button id="copyBtn">Copy</button>
+              <span class="print"></span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="flex-wrapper">
+        <a href="" style="text-decoration: underline">Other Projects</a>
+      </div>
+      <br />
+      <div class="flex-wrapper">
+        <p>&COPY; Amoako Domson Wahab</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
